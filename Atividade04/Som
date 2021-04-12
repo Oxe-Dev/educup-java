@@ -1,0 +1,40 @@
+package Atividade04;
+
+public class Som {
+    
+    private Integer volume;
+    private double faixa;
+
+
+    public void aumentarVolume(){
+        volume += 1;
+     
+    }
+
+    public void diminuirVolume(){
+        volume -= 1;
+      
+    }
+
+    public void proximaFaixa(){
+        faixa += 0.5;
+    }
+
+    public void faixaAnterior(){
+        faixa -= 0.5;
+    }
+
+    public Integer getVolume(){
+        return volume;
+    }
+    public void setVolume(Integer volume){
+        this.volume = volume;
+    }
+
+    public double getFaixa(){
+        return faixa;
+    }
+    public void setFaixa(double faixa){
+        this.faixa = faixa;
+    }
+}
