@@ -1,2 +1,2 @@
 # educup-java
-Repositório dos códigos com as atividades do Educ Up! - Java
+Repositório dos códigos das atividades contidas na apostila do Educ Up! - Java
